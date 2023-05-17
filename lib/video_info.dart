@@ -127,9 +127,9 @@ class _VideoInfoState extends State<VideoInfo> {
                             ],
                           ),
                         ),
-                        SizedBox(width: 20,),
+                        SizedBox(width: 0,),
                         Container(
-                          width: 240,
+                          width: 190,
                           height: 30,
                           decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(10),
@@ -149,7 +149,7 @@ class _VideoInfoState extends State<VideoInfo> {
                                 size: 20,
                                 color: color.AppColor.secondPageIconColor,),
                               SizedBox(width: 5,),
-                              Text("Resistent band , kettebell",
+                              Text("Resistant band",
                                 style: TextStyle(
                                     fontSize: 16,
                                     color: color.AppColor.secondPageIconColor
@@ -335,7 +335,7 @@ Widget _controlView(BuildContext context){
                  });
                 },
               ),
-              FlatButton(
+              ElevatedButton(
                   onPressed: () async {
                    final index=_isPlayingIndex-1;
                    if(index>=0&&videoInfo.length>=0){
@@ -361,7 +361,8 @@ Widget _controlView(BuildContext context){
               size: 36,
               color: Colors.white,)
               ),
-              FlatButton(
+              // ignore: deprecated_member_use
+              ElevatedButton(
                   onPressed: () async {
 if(_isPlaying){
   setState(() {
@@ -379,7 +380,7 @@ if(_isPlaying){
                     size: 36,
                     color: Colors.white,)
               ),
-              FlatButton(
+              ElevatedButton(
                   onPressed: () async {
                     final index=_isPlayingIndex+1;
                     if(index<=videoInfo.length-1){
@@ -534,7 +535,7 @@ _intitializeVideo(index);
           Row(
             children: [
               Container(
-                width: 80,
+                width: 70,
                 height: 80,
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10),

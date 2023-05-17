@@ -14,5 +14,29 @@
   {
     "title": "Arms",
     "img": "assets/ex4.png"
+  },
+  {
+    "title": "Hamstrings",
+    "img": "assets/ex3.png"
+  },
+  {
+    "title": "Biceps",
+    "img": "assets/ex4.png"
+  },
+  {
+    "title": "Chest",
+    "img": "assets/ex2.png"
+  },
+  {
+    "title": "Triceps",
+    "img": "assets/ex4.png"
+  },
+  {
+    "title": "Cardio",
+    "img": "assets/ex3.png"
+  },
+  {
+    "title": "Calves",
+    "img": "assets/ex1.png"
   }
 ]
