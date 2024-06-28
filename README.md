@@ -65,5 +65,22 @@ flutter pub get
 flutter run
 ```
 ## Screenshots
+- Home Page
+- ![image](https://github.com/aakriti562/trainning_app/assets/76481840/123e4047-e403-4ee0-bc48-f4b24491ee69)
+
+- Inherit Page
+- ![image](https://github.com/aakriti562/trainning_app/assets/76481840/62487f1d-9676-4549-87f0-873836d0436d)
+
+- Video Player Page
+
+  With pop - up 
+- ![image](https://github.com/aakriti562/trainning_app/assets/76481840/eb48eddf-1e5d-48d6-81a3-3cb81bd67d0f)
+
+- ![image](https://github.com/aakriti562/trainning_app/assets/76481840/0f291d7b-1453-4d8e-afea-2c4566921699)
+
+
+
+
+  
 
 
